@@ -1,12 +1,12 @@
 # React: Sorting Articles  
 
-Create a basic article sorting application, as shown below. Some core functionalities have already been implemented, but the application is not complete. Application requirements are given below, and the finished application must pass all of the unit tests.
+Created a basic article sorting application, which displays Most Upvoted and Most Recent Articles from the uploaded Articles. Some core functionalities have already been implemented, but the application is not complete. Application requirements are given below, and the finished application must pass all of the unit tests.
 
-![sorting-app](https://hrcdn.net/s3_pub/istreet-assets/YkVzgbGgMj0cfT9P97s8jg/sorting-articles.gif)
+
 
 The app has one component named Articles. The list of articles to be displayed is already provided in the app.
 
-The app must have the following functionalities:
+The app must  the following functionalities:
 
 - The list of articles is passed to the App component as a prop in the form of an array of objects.
 - Each article has the following three properties:
@@ -16,9 +16,9 @@ The app must have the following functionalities:
 - By default, the articles should be displayed in the table ordered by the number of upvotes in descending order.
 - Clicking on the "Most Upvoted" button should reorder and display the articles by the number of upvotes in descending order.
 - Clicking on the "Most Recent" button should reorder and display the articles by date in descending order.
-- You can assume that each article has a unique publish date and number of upvotes.
+-  assume that each article has a unique publish date and number of upvotes.
 
-Your task is to complete the implementation of `src/App.js` and `src/components/Articles.js`.
+
 
 The following data-testid attributes are required in the component for the tests to pass:
 

@@ -1,0 +1,112 @@
+<testsuites name="jest tests" tests="4" failures="4" time="12.587">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2024-10-13T12:38:01" time="12.587" tests="4">
+    <testcase classname=" Initial articles render correctly" name=" Initial articles render correctly" time="0.028">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 7
+Received length: 1
+Received array:  [&lt;tr data-testid=&quot;article&quot;&gt;&lt;td data-testid=&quot;article-title&quot;&gt; &lt;/td&gt;&lt;td data-testid=&quot;article-upvotes&quot; /&gt;&lt;td data-testid=&quot;article-date&quot; /&gt;&lt;/tr&gt;]
+    at expectArticles (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\src\App.test.js:83:20)
+    at Object.&lt;anonymous&gt; (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\src\App.test.js:97:3)
+    at Promise.then.completed (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:66:9)
+    at run (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Clicking on top renders expected articles" name=" Clicking on top renders expected articles" time="0.012">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 7
+Received length: 1
+Received array:  [&lt;tr data-testid=&quot;article&quot;&gt;&lt;td data-testid=&quot;article-title&quot;&gt; &lt;/td&gt;&lt;td data-testid=&quot;article-upvotes&quot; /&gt;&lt;td data-testid=&quot;article-date&quot; /&gt;&lt;/tr&gt;]
+    at expectArticles (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\src\App.test.js:83:20)
+    at Object.&lt;anonymous&gt; (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\src\App.test.js:107:3)
+    at Promise.then.completed (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:66:9)
+    at run (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Clicking on newest renders expected articles" name=" Clicking on newest renders expected articles" time="0.005">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 7
+Received length: 1
+Received array:  [&lt;tr data-testid=&quot;article&quot;&gt;&lt;td data-testid=&quot;article-title&quot;&gt; &lt;/td&gt;&lt;td data-testid=&quot;article-upvotes&quot; /&gt;&lt;td data-testid=&quot;article-date&quot; /&gt;&lt;/tr&gt;]
+    at expectArticles (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\src\App.test.js:83:20)
+    at Object.&lt;anonymous&gt; (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\src\App.test.js:117:3)
+    at Promise.then.completed (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:66:9)
+    at run (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname=" Sequence of navigation clicks renders expected articles" name=" Sequence of navigation clicks renders expected articles" time="0.005">
+      <failure>Error: expect(received).toHaveLength(expected)
+
+Expected length: 7
+Received length: 1
+Received array:  [&lt;tr data-testid=&quot;article&quot;&gt;&lt;td data-testid=&quot;article-title&quot;&gt; &lt;/td&gt;&lt;td data-testid=&quot;article-upvotes&quot; /&gt;&lt;td data-testid=&quot;article-date&quot; /&gt;&lt;/tr&gt;]
+    at expectArticles (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\src\App.test.js:83:20)
+    at Object.&lt;anonymous&gt; (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\src\App.test.js:132:5)
+    at Promise.then.completed (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:66:9)
+    at run (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (D:\Acros Global\5b036d24-e97a-4e15-bc1c-2a51a75c13ae\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
